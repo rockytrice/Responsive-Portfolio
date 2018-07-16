@@ -205,11 +205,23 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen and (max-width: 980px) {}
+@media screen and (max-width: 980px) {
+  .main-section {
+    width: 66%;
+    max-width: 980px;
+    margin-left: 53px;
+  }
+  .masterhead {
+    padding-left: 57px;
+    padding-right: 45px;
+    position: static;
+  }
+
+}
 
 @media screen and (max-width: 768px) {}
 
-@media screen and (max-width: 640px) {
+/* @media screen and (max-width: 640px) {
   #masthead {
     padding-right: 45px;
     position: static;
@@ -222,9 +234,9 @@ input[type=submit] {
     margin-bottom: 44px;
   }
   #maincontainer{
-    width: 50%;
+    ;
   }
   .container {
 width: 50%;
   }
-}
+} */
