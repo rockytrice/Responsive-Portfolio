@@ -208,13 +208,20 @@ input[type=submit] {
 @media screen and (max-width: 980px) {
   .main-section {
     width: 66%;
-    max-width: 980px;
+    /* max-width: 980px; */
     margin-left: 53px;
+    margin-bottom: 50%
   }
-  .masterhead {
+  #masterhead {
     padding-left: 57px;
     padding-right: 45px;
     position: static;
+  }
+  #logo {
+    margin-left: 46px;
+  }
+  nav {
+    padding-right: 24px;
   }
 
 }
