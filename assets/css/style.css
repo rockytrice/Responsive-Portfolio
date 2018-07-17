@@ -208,11 +208,11 @@ input[type=submit] {
 @media screen and (max-width: 980px) {
   .main-section {
     width: 66%;
-    /* max-width: 980px; */
     margin-left: 53px;
-    margin-bottom: 50%
+    margin-bottom: 50%;
+    margin-top: -100px;
   }
-  #masterhead {
+  #masthead {
     padding-left: 57px;
     padding-right: 45px;
     position: static;
@@ -222,6 +222,9 @@ input[type=submit] {
   }
   nav {
     padding-right: 24px;
+  }
+  .work {
+  width: 264px;
   }
 
 }
