@@ -205,6 +205,8 @@ input[type=submit] {
   border: 0 none;
 }
 
+/* desktop layout */
+
 @media screen and (max-width: 980px) {
   .main-section {
     width: 66%;
@@ -228,6 +230,8 @@ input[type=submit] {
   }
 }
 
+/* width of tablet */
+
 @media screen and (max-width: 768px) {
   .main-section {
     width: 99%;
@@ -245,25 +249,30 @@ input[type=submit] {
   #masthead {
     width: 768px;
     margin: -8px -8px 28px;
+    position: static;
+
   }
 }
+/* width of phone in  landscape mode */
 
-/* @media screen and (max-width: 640px) {
-  #masthead {
-    padding-right: 45px;
-    position: static;
-    width: 50%;
+ @media screen and (max-width: 640px) {
+ 
+.main-section {
+  margin-top: -134px;
+}
+#logo {
+  margin-left: -57px;
+  width: 100%;
+}
+nav {
+  margin-top: -2px;
+  text-align: center;
+}
+nav a {
+  padding-left: 28px;
+}
 
 
-  }
-  .auth-image {
-    width: 250px;
-    margin-bottom: 44px;
-  }
-  #maincontainer{
-    ;
-  }
-  .container {
-width: 50%;
-  }
-} */
+
+
+} 
