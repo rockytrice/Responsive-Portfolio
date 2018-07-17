@@ -259,19 +259,23 @@ input[type=submit] {
  
 .main-section {
   margin-top: -134px;
+  width: 98%;
 }
 #logo {
   margin-left: -57px;
-  width: 100%;
+  width: 640px;
 }
 nav {
-  margin-top: -2px;
+  margin-top: 25px;
   text-align: center;
+  margin-right: 116px;
 }
 nav a {
   padding-left: 28px;
 }
-
+#masthead {
+  width: 640px;
+}
 
 
 
